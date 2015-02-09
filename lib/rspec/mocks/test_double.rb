@@ -39,7 +39,7 @@ module RSpec
 
       # @private
       def inspect
-        "#<#{self.class}:#{'0x%x' % object_id} @name=#{@name.inspect}>"
+        "Double (#{@name})"
       end
 
       # @private
